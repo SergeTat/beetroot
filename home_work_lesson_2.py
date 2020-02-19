@@ -11,7 +11,7 @@ print ('Good day, {name}! {day} is a perfect day to learn some python!'.format(n
 
 # Task - 2
 
-print (name  +  surname)
+print (name + 'Today is a' + surname)
 
 print("Hello, {} {}!".format(name, surname))
 
@@ -30,3 +30,11 @@ print ("Addition is {}" .format(addition))
 print ("Subtraction is {}" .format(subtraction))
 print ("Divisionivision is {}" .format(divisionivision))
 print ("Multiplication is {}" .format(multiplication))
+
+
+''' Test example
+
+message = “Hello beautiful world!”
+final_message = message[0:5] + “ ” + message[-6:] + “ Today is a ” + message[6:15] + “ day.”
+print(final_message)
+'''
